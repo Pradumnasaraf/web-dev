@@ -1,0 +1,38 @@
+h2{
+    color:green;
+}
+
+h2:hover{
+    color:lightcoral;
+}
+
+/* First item of list*/
+li:first-child{
+    color:lightgray;
+}
+
+/* Last item of list*/
+li:last-child{
+    color:blueviolet;
+}
+
+/*nth element of the list*/
+li:nth-child(3){
+    color:cadetblue;
+}
+
+/*Only child in the list*/
+li:only-child{
+    color:darkmagenta
+}
+
+/*Unvisted Link*/
+#google:link{
+    color:blue
+
+}
+
+#google:visited{
+    color:red
+}
+

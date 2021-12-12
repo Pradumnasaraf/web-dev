@@ -1,0 +1,21 @@
+/**Element selector*/
+
+h2{
+    color:lightcoral;
+}
+
+
+/** Classes **/
+.title{
+    color:brown;
+}
+
+
+.subtitle{
+    color:blue;
+}
+
+/* ID's*/
+#contact-us{
+    color:green;
+}
