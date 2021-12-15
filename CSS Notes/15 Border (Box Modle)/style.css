@@ -1,0 +1,9 @@
+body{
+    background:lightblue
+}
+#leaf-image{
+    height:300px;
+    /** SYNTAX - border: size style color;**/
+    border: 10px solid black; /* style - dotted, dashed, double*/
+                                
+}

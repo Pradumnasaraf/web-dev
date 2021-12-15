@@ -1,0 +1,30 @@
+/* Text manipulationb is not font manipulation*/
+body{
+    text-align: justify;
+    text-align: center;
+}
+.header-tag{
+
+    text-transform: capitalize;
+    text-transform: uppercase;
+    text-transform: lowercase;
+   
+}
+
+#header-tag2{
+    font-size:2em;
+    font-weight: 200; /*Bold*/
+
+}
+#name{
+    font-style: oblique;
+    font-style: italic;
+    
+}
+.anchor-tag{
+    text-decoration: none; /*remove the underline*/
+    /* text-decoration: underline; 
+    text-decoration: line-through;  */
+    text-decoration: overline; /*remove the underline*/
+}
+

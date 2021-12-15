@@ -1,0 +1,36 @@
+#background1{
+    height:200px;
+    /* 4th para in rbga is for opacity*/
+    background: rgba(243, 142, 142, 0.4)  /* a = alpha , 0.4 - 40%  */
+}
+#background2{
+    height:200px;
+    /*liner gradient*/
+    /*Gradient will move towards right*/
+    background:linear-gradient(to right, red , blue, lightgray);
+}
+
+#background3{
+    height:200px;
+    background:linear-gradient(to right, rgb(255, 0, 0), rgba(255, 0, 0, 0));
+}
+
+#background4{
+    height:200px;
+    background:linear-gradient(to bottom right, rgba(36, 32, 255, 0.993), rgba(255, 255, 255, 0));
+}
+
+/*we can pass deg for gradient direction*/
+#background5{
+    height:200px;
+    /*deg is use to arjust the angle of the gradient*/
+    background:linear-gradient(1356deg, rgb(255, 129, 3), rgba(255, 255, 255, 0));
+
+}
+
+/*Radio Gradient*/
+#background5{
+    height:600px;
+    background:radial-gradient(circle,red 20%, blue 40%, green 40%)
+
+}

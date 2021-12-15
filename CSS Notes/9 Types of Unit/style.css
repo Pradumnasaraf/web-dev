@@ -1,0 +1,29 @@
+body{
+
+    background: linear-gradient(to right, rgb(255, 183, 165),white);
+}
+
+#area-1{
+    
+    font-size: 2mm;
+    font-size: 1cm;
+
+}
+
+#area-2{
+   
+    font-size: 2em;
+    
+}
+
+#area-3{
+   
+    font-size: 20vh /*vw -view width vh- view height*/ ;
+    
+}
+
+#kitty{
+
+    height: 400px; /*pc or px*/
+    width: 400px;
+}

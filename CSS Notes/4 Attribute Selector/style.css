@@ -1,0 +1,19 @@
+/* Attribute Selector*/
+
+h2[class= subtitle]{
+    color:aqua
+}
+
+img[src^="../images/"]{
+    border: 10px solid black;
+}
+
+/*white space attrbute selector*/
+
+h2[class ~= article-subtitle]{
+    background:gray;
+}
+
+h2[class |= subtitle]{
+    background:blueviolet;
+}

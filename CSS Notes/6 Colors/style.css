@@ -1,0 +1,18 @@
+body{
+    /* background:rgb(255, 226, 224) */
+
+    /*we can also add local dir path*/
+    background-image:url("https://www.adobe.com/express/learn/blog/media_1fbb098d1e0caaa882424b3a274330ac719a2c5d9.png?width=2000&format=webply&optimize=medium") ;
+}
+
+#title{
+    color:rgb(241, 99, 43) ;
+}
+
+.subtitle{
+    color: rgb(255, 191, 126)
+}
+
+
+
+

@@ -1,0 +1,27 @@
+/*Adjacent sibling selector*/
+
+/* The anchor tag which come after the h2 will apply this propperties*/
+h2 + a {          
+    color:red
+
+}
+
+/*General sibling selector*/
+
+/* They are simlar to above but need to be in same parent*/
+
+textarea ~ input {  /*We can say "Every input elemnt after textarea"*/
+    color:chocolate
+}
+
+/*Direct Child Selector */
+
+ul> li{
+    color:darkgreen
+}
+
+/*child desendence selector*/
+ul li{
+    color:crimson
+}
+

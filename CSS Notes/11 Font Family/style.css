@@ -1,0 +1,8 @@
+#first{
+    text-align: center;
+    font-family:  sans-serif,"Times New Roman", serif; /* we use two font beacsue if in case some font is not available*/
+}
+#second{
+    text-align: center;
+    font-family:  monospace,"Times New Roman", serif;
+}
