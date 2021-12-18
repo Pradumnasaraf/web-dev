@@ -5,6 +5,18 @@
     font-family: 'Courier New', Courier, monospace;
 }
 #leaf-image{
-    height:300px;
-    float:right;    
+    width:300px;
+    float:right;  /*Move the content to the right side of the page*/  
+
 }
+#description{
+    font-size: 25px;
+    /* display: none; */ /*Use to hide the the element*/
+}
+
+#list{
+   display: inline-block; 
+   /*display: inline; */
+
+}
+

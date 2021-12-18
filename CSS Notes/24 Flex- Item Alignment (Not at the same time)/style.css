@@ -1,0 +1,24 @@
+body{
+    background:lightblue;
+}
+.container{
+    background:white;
+    margin:10px;
+    height: 300px;
+    display:flex; 
+    flex-direction:row; 
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container-item{
+    
+    width:70px;
+    line-height:50px;
+    background: green;
+    margin:10px;
+    text-align: center;
+    color:white;
+    font-family: sans-serif;
+}

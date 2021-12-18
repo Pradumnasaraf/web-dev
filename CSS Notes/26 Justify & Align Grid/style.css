@@ -1,0 +1,23 @@
+.grid-container{
+
+    background-color:rgb(217, 245, 255);
+    margin: 10px;
+    height:500px;
+
+    display: grid;
+    grid-template-columns:auto 100px auto;/* 3 columns eg: 10px 150px 10px*/
+    grid-template-rows: auto auto;
+    justify-content:space-evenly; /* start, end, center, space-arround*/
+    align-content: center; /*space-between, end*/
+
+}
+
+.grid-item{
+    color:black;
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+    width: 70px;
+    line-height: 40px;
+    
+}

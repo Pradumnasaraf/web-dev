@@ -1,0 +1,19 @@
+body{
+    background:lightblue;
+}
+.container{
+    background:white;
+    margin:10px;
+    display:flex; /* It will Craete a Flex container*/
+    height: 300px;
+}
+.container-item{
+    
+    width:25px;
+    height:18px;
+    background: green;
+    margin:8px;
+    text-align: center;
+    color:white;
+    font-family: sans-serif;
+}

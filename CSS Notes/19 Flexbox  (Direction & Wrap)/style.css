@@ -1,0 +1,26 @@
+body{
+    background:lightblue;
+}
+.container{
+    background:white;
+    margin:10px;
+    display:flex; /* It will Craete a Flex container*/
+    /* flex-direction:column-reverse;
+    flex-direction:row-reverse; */
+    flex-direction:row; /*Row is by default*/
+    /* flex-wrap: wrap-reverse; */
+    flex-wrap: wrap;  /* wrap the elment the page, dont let it to the end of the page*/
+
+
+
+}
+.container-item{
+    
+    width:70px;
+    line-height:50px;
+    background: green;
+    margin:10px;
+    text-align: center;
+    color:white;
+    font-family: sans-serif;
+}
