@@ -2,7 +2,7 @@ h2{
     color:green;
 }
 
-h2:hover{
+h2:hover{ /*  : COLON sudo selector- we can its an overriden properties*/
     color:lightcoral;
 }
 

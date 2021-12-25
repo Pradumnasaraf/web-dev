@@ -1,0 +1,17 @@
+#submit{
+    font-size:28px;
+    background-color: rgb(131, 131, 255);
+    border:0px;
+    padding : 15px 40px;
+    margin:30px;
+    color:white;
+    font-size: serif;
+    transition: all 1000ms ease;
+    
+}
+#submit:hover{
+    font-size:45px;
+    padding: 25px 60px;
+    transform: translate(50px ,30px);
+    
+}

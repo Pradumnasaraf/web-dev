@@ -5,14 +5,13 @@
 }
 #background2{
     height:200px;
-    /*liner gradient*/
-    /*Gradient will move towards right*/
+    /*liner gradient Gradient will move towards right*/
     background:linear-gradient(to right, red , blue, lightgray);
 }
 
 #background3{
     height:200px;
-    background:linear-gradient(to right, rgb(255, 0, 0), rgba(255, 0, 0, 0));
+    background:linear-gradient(to right, rgb(255, 0, 0), rgba(255, 255, 255, 0));
 }
 
 #background4{

@@ -6,7 +6,7 @@ height:300px;
 
 display: grid;
 grid-template-columns:auto 100px auto;/* 3 columns eg: 10px 150px 10px*/
-grid-template-rows: auto auto;
+grid-template-rows: auto auto; /*auto means it will auto adjust the space */
 
 }
 

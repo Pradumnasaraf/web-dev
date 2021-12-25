@@ -7,18 +7,21 @@ body{
     
     font-size: 2mm;
     font-size: 1cm;
+    background: blueviolet
 
 }
 
 #area-2{
    
     font-size: 2em;
+    background:greenyellow
     
 }
 
 #area-3{
    
     font-size: 20vh /*vw -view width vh- view height*/ ;
+    background:violet
     
 }
 

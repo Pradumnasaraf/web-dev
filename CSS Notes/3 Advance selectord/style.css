@@ -20,7 +20,7 @@ ul> li{
     color:darkgreen
 }
 
-/*child desendence selector*/
+/*child desendence selector (even select child of child)*/
 ul li{
     color:crimson
 }

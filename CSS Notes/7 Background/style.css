@@ -1,14 +1,13 @@
 #service-image{
     height: 400px;
     width: 70%;
-
+    background: burlywood;
     background-image: url(2.jpg);
     background-repeat: no-repeat;
-    /* background-repeat:repeat;   - It will repeat Background image */
+    /* background-repeat:repeat;  - It will repeat Background image */
     /* background-size: 50px, 100p; - It will fix the dimentions */
-    /*background-size: contain; - if will not cut image like cover */
-    background-size: cover;
-    background-color: red;
-}
+    /* background-size: contain; - if will not cut image like cover */
+     background-size: cover;
+} 
 
 

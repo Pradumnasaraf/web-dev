@@ -1,0 +1,11 @@
+.hello{
+    animation-name: red-black;
+}
+@keyframes red-black{
+    /* from{background:red}
+    to{background:black} */
+    0% {background:red; tranform: translate(0px,0px)} /*percentag are key frames*/
+    50% {background:yellow; tranform: translate(10px,10px)}
+    100% {background:black;tranform: translate(20px,20px)}
+
+}

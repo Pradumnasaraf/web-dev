@@ -4,16 +4,16 @@ h2[class= subtitle]{
     color:aqua
 }
 
-img[src^="../images/"]{
+img[src*="images/"]{ /* ^ - starts with, $ - ends with, * - contains anywhere */
     border: 10px solid black;
 }
 
 /*white space attrbute selector*/
 
-h2[class ~= article-subtitle]{
+h2[class ~= article-subtitle]{ /* if it conain anywhere in class it will select it*/
     background:gray;
 }
 
-h2[class |= subtitle]{
+h2[class |= subtitle]{ /*with start with eg subtitle-4002*/
     background:blueviolet;
 }

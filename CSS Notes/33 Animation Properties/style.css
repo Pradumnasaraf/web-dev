@@ -1,0 +1,19 @@
+#hello{
+    animation-name: red-black;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-delay: 2s; /*it can be -ve*/
+    animation-iteration-count: 10; /*infinite*/
+    animation-direction: alternate;/*alernate = norrmal+reverse or aletante-reverse*/
+    animation: red-black 2s linear 0s 2 alternate; /*shorthand*/
+}
+@keyframes red-black{
+    /* from{background:red}
+    to{background:black} */
+    0% {background:red; transform: translate(0px,0px);
+    } /*percentag are key frames*/
+    50% {background:yellow; transform: translate(10px,10px);
+    }
+    100% {background:blue;transform: translate(20px,20px);
+    }
+}
