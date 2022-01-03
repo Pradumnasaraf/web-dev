@@ -13,6 +13,11 @@ body{
     color: rgb(255, 191, 126)
 }
 
+div{
+
+    color:hsl(9, 100%, 64%);
+    color:hsla(9, 100%, 64%, 0.45);
+}
 
 
 

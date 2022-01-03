@@ -1,0 +1,37 @@
+main{
+    margin:20px;
+}
+.div1{
+    height :100px;
+    border: 0.5px dashed rgb(224, 224, 224);
+    border-left: 10px solid red;
+    background: lightgrey;
+    border-radius: 10px;
+}
+.div2{
+
+    height: 200px;
+    width: 50%;
+    background-color: powderblue;
+}
+.div3 {
+    border: 1px solid red;
+    max-width: 500px;
+    height: 100px;
+    background-color: rgb(1, 195, 221);
+}
+.div4{
+    font-size: 24px;
+    width:90%;
+    max-width: 500px;
+    min-width:500px;
+
+}
+.div4 >img{
+    width: 100%;
+}
+.div4 p{
+    width: 100%;
+    padding:10px;
+    color:red;
+}

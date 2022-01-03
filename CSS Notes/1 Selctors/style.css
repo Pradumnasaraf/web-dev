@@ -19,3 +19,21 @@ h2{
 #contact-us{
     color:green;
 }
+
+/*selecting h2 with center class*/
+
+h2.center{
+    color:aqua;
+    text-align:center;
+}
+
+/* Universal selector*/
+* {
+    text-align: center;
+    color: blue;
+  }
+
+/*Multiple selector*/
+  h4, h5, div {
+    background-color: yellow;
+  }

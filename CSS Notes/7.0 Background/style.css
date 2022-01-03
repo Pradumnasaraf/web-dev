@@ -1,13 +1,25 @@
 #service-image{
     height: 400px;
-    width: 70%;
+    /*width of div not image*/
+    width: 80%;
     background: burlywood;
+    opacity: 90%;
     background-image: url(2.jpg);
     background-repeat: no-repeat;
     /* background-repeat:repeat;  - It will repeat Background image */
     /* background-size: 50px, 100p; - It will fix the dimentions */
     /* background-size: contain; - if will not cut image like cover */
      background-size: cover;
+     background-position: right top;
 } 
 
+#example2 {
+    border: 2px solid black;
+    border-style: inset;
+    padding: 25px;
+    background-repeat: no-repeat;
+
+    /*Background size is used to specify the siz eof image in a contaner*/
+    background-size: 300px 100px;
+  }
 

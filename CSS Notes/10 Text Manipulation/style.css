@@ -28,3 +28,15 @@ body{
     text-decoration: overline; /*remove the underline*/
 }
 
+.last{
+    font-size: 20px;
+    text-align-last: right; /*Align last line of text*/
+    text-indent: 50px; /*from how much sapce text will start from the beginning*/
+    letter-spacing: 5px; /*space between char*/
+    word-spacing: 10px;
+    text-shadow: 1px 1px 5px red; /*horzi, vertical, blur, color*/
+     
+}
+.small {
+    font-variant: small-caps;/*In a small-caps font, all lowercase letters are converted to uppercase letters. However, the converted uppercase letters appears in a smaller font size than the original uppercase letters in the text.*/
+  }
