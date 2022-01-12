@@ -1,0 +1,27 @@
+.one{ 
+    float:left;
+    height:20px;
+    border: 1px solid red;
+}
+.two{ 
+    padding: 10px;
+    border: 3px solid red;
+    clear: left; /*and we want the next element below , we will have to use the clear .*/
+}
+
+.parent{
+    overflow: auto;
+}
+
+.child1{
+    height:100px;
+    width:100px;
+    background-color:aqua;
+    float: right;
+
+}
+.child2{
+    border: 3px solid #4CAF50;
+    padding: 5px;
+    overflow: auto;
+}

@@ -1,0 +1,47 @@
+/*The CSS overflow property controls what happens to content that is too big to fit into an area.*/
+
+/* overflow are of 4 type- visible,hidden,scroll,auto*/
+
+#div1 {
+    width: 200px;
+    height: 50px;
+    background-color: #eee;
+    overflow: visible; /*if content become extra it come out of that container*/
+}
+#div2{
+    background-color: #eee;
+    width: 200px;
+    height: 50px;
+    margin-top: 150px;
+    overflow: hidden; /*hide extra content*/
+      
+}
+#div3{
+    background-color: #eee;
+    width: 200px;
+    height: 50px;
+    margin-top: 150px;
+    overflow: scroll; /*add scroll bar*/    
+}
+#div4{
+    background-color: #eee;
+    width: 200px;
+    height: 50px;
+    margin-top: 150px;
+    overflow: auto;
+}
+#div5{
+    background-color: #eee;
+    width: 200px;
+    height: 50px;
+    margin-top: 150px;
+}
+#div6{
+    background-color: #eee;
+    margin-top: 500px;
+    width: 200px;
+    height: 50px;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: scroll; /* Add vertical scrollbar */
+}
+
